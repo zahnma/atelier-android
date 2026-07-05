@@ -2,6 +2,19 @@
 
 A simple Android app for browsing luxury fashion houses and their creative leadership history — current and past creative directors with tenure dates.
 
+## Install (no build required)
+
+Download a pre-built APK — you do **not** need Android Studio or Gradle.
+
+1. Go to **[Releases](https://github.com/zahnma/atelier-android/releases/latest)** and download `atelier-*.apk`
+2. Transfer the file to your Android phone (or download directly on the device)
+3. Enable **Install unknown apps** for your browser or file manager (Settings → Apps)
+4. Open the APK and tap **Install**
+
+Alternatively, download the APK from the latest [Android CI workflow artifact](https://github.com/zahnma/atelier-android/actions/workflows/android-ci.yml).
+
+See [`dist/README.md`](dist/README.md) for maintainer release instructions.
+
 ## Features
 
 - Browse ~25 curated luxury and contemporary fashion brands
@@ -10,7 +23,7 @@ A simple Android app for browsing luxury fashion houses and their creative leade
 - Offline-first with bundled seed data
 - Pull-to-refresh to fetch updates from GitHub-hosted JSON
 
-## Build & Run
+## Build from source (optional)
 
 Requirements: Android Studio Ladybug or newer, JDK 17, Android SDK 35.
 
@@ -36,6 +49,14 @@ Copy the same file to the app seed bundle:
 
 ```bash
 cp data/brands.json app/src/main/assets/brands_seed.json
+```
+
+### Brand logos
+
+Bundled SVG logos live in `app/src/main/assets/logos/`. To refresh logos from Wikimedia Commons:
+
+```bash
+python3 scripts/fetch_brand_logos.py
 ```
 
 After merging to `main`, the app pulls updates from:

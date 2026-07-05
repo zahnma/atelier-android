@@ -19,6 +19,7 @@ data class Brand(
     @SerialName("category") val category: String,
     @SerialName("description") val description: String? = null,
     @SerialName("logoUrl") val logoUrl: String? = null,
+    @SerialName("logoAsset") val logoAsset: String? = null,
     @SerialName("directors") val directors: List<CreativeDirector>,
 )
 

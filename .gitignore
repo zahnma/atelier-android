@@ -7,3 +7,4 @@ captures/
 .cxx/
 app/release/
 app/build/
+dist/*.apk

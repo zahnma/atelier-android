@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026-07-05",
+  "dataVersion": "2026-07-05-logos",
   "brands": [
     {
       "id": "chanel",
@@ -9,7 +9,7 @@
       "founded": 1910,
       "category": "Haute couture",
       "description": "Parisian house founded by Gabrielle Chanel, defining modern women's luxury.",
-      "logoUrl": null,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Chanel_logo.svg",
       "directors": [
         {
           "personId": "gabrielle-chanel",
@@ -43,7 +43,8 @@
           "endDate": null,
           "bio": "Former Bottega Veneta creative director appointed to lead Chanel."
         }
-      ]
+      ],
+      "logoAsset": "logos/chanel.svg"
     },
     {
       "id": "dior",
@@ -52,7 +53,7 @@
       "founded": 1946,
       "category": "Haute couture",
       "description": "Legendary Paris couture house known for the New Look and romantic femininity.",
-      "logoUrl": null,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Dior_Logo_2022.svg",
       "directors": [
         {
           "personId": "christian-dior",
@@ -110,7 +111,8 @@
           "endDate": null,
           "bio": "First woman to lead Dior; known for feminist messaging and bohemian romance."
         }
-      ]
+      ],
+      "logoAsset": "logos/dior.svg"
     },
     {
       "id": "louis-vuitton",
@@ -119,7 +121,7 @@
       "founded": 1854,
       "category": "Luxury leather goods",
       "description": "World's leading luxury brand, part of LVMH, spanning leather goods, ready-to-wear, and travel.",
-      "logoUrl": null,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Louis_Vuitton_logo_and_wordmark.svg",
       "directors": [
         {
           "personId": "marc-jacobs",
@@ -145,7 +147,8 @@
           "endDate": null,
           "bio": "Musician and designer appointed to lead Louis Vuitton menswear."
         }
-      ]
+      ],
+      "logoAsset": "logos/louis-vuitton.svg"
     },
     {
       "id": "gucci",
@@ -154,7 +157,7 @@
       "founded": 1921,
       "category": "Luxury fashion",
       "description": "Florentine house famed for Italian craft, bold branding, and maximalist reinvention.",
-      "logoUrl": null,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gucci_logo.svg",
       "directors": [
         {
           "personId": "tom-ford",
@@ -196,7 +199,8 @@
           "endDate": null,
           "bio": "Balenciaga creative director appointed to lead Gucci."
         }
-      ]
+      ],
+      "logoAsset": "logos/gucci.svg"
     },
     {
       "id": "prada",
@@ -205,7 +209,7 @@
       "founded": 1913,
       "category": "Luxury fashion",
       "description": "Milanese house blending intellectual design, nylon innovation, and Miuccia Prada's vision.",
-      "logoUrl": null,
+      "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Prada-Logo.svg",
       "directors": [
         {
           "personId": "miuccia-prada",
@@ -223,7 +227,8 @@
           "endDate": "2025-10-01",
           "bio": "Shared creative leadership with Miuccia Prada until his departure."
         }
-      ]
+      ],
+      "logoAsset": "logos/prada.svg"
     },
     {
       "id": "hermes",
@@ -266,7 +271,8 @@
           "endDate": null,
           "bio": "Long-serving menswear director known for understated tailoring."
         }
-      ]
+      ],
+      "logoAsset": "logos/hermes.svg"
     },
     {
       "id": "balenciaga",
@@ -317,7 +323,8 @@
           "endDate": null,
           "bio": "Former Valentino co-creative director appointed to lead Balenciaga."
         }
-      ]
+      ],
+      "logoAsset": "logos/balenciaga.svg"
     },
     {
       "id": "saint-laurent",
@@ -360,7 +367,8 @@
           "endDate": null,
           "bio": "Known for body-conscious glamour and strong red-carpet dressing."
         }
-      ]
+      ],
+      "logoAsset": "logos/saint-laurent.svg"
     },
     {
       "id": "bottega-veneta",
@@ -403,7 +411,8 @@
           "endDate": null,
           "bio": "Former Carven and Joseph designer appointed to succeed Matthieu Blazy."
         }
-      ]
+      ],
+      "logoAsset": "logos/bottega-veneta.svg"
     },
     {
       "id": "burberry",
@@ -438,7 +447,8 @@
           "endDate": null,
           "bio": "Returned to a British craft-focused vision with playful color and knitwear."
         }
-      ]
+      ],
+      "logoAsset": "logos/burberry.svg"
     },
     {
       "id": "versace",
@@ -473,7 +483,8 @@
           "endDate": null,
           "bio": "Former Alaïa creative director appointed to lead Versace."
         }
-      ]
+      ],
+      "logoAsset": "logos/versace.svg"
     },
     {
       "id": "valentino",
@@ -524,7 +535,8 @@
           "endDate": null,
           "bio": "Former Gucci creative director appointed to Valentino."
         }
-      ]
+      ],
+      "logoAsset": "logos/valentino.svg"
     },
     {
       "id": "givenchy",
@@ -591,7 +603,8 @@
           "endDate": null,
           "bio": "Former Alexander McQueen right hand appointed to lead Givenchy."
         }
-      ]
+      ],
+      "logoAsset": "logos/givenchy.svg"
     },
     {
       "id": "fendi",
@@ -626,7 +639,8 @@
           "endDate": null,
           "bio": "Shared creative leadership for womenswear, menswear, and couture fur."
         }
-      ]
+      ],
+      "logoAsset": "logos/fendi.svg"
     },
     {
       "id": "loewe",
@@ -661,7 +675,8 @@
           "endDate": null,
           "bio": "Successor to Jonathan Anderson pending announcement."
         }
-      ]
+      ],
+      "logoAsset": "logos/loewe.svg"
     },
     {
       "id": "celine",
@@ -712,7 +727,8 @@
           "endDate": null,
           "bio": "Former Celine design director returning to lead the house."
         }
-      ]
+      ],
+      "logoAsset": "logos/celine.svg"
     },
     {
       "id": "miu-miu",
@@ -731,7 +747,8 @@
           "endDate": null,
           "bio": "Founded Miu Miu as an experimental counterpart to Prada."
         }
-      ]
+      ],
+      "logoAsset": "logos/miu-miu.svg"
     },
     {
       "id": "tom-ford",
@@ -758,7 +775,8 @@
           "endDate": null,
           "bio": "Longtime Tom Ford collaborator appointed to succeed the founder."
         }
-      ]
+      ],
+      "logoAsset": "logos/tom-ford.svg"
     },
     {
       "id": "alexander-mcqueen",
@@ -793,7 +811,8 @@
           "endDate": null,
           "bio": "Former JW Anderson designer appointed to lead Alexander McQueen."
         }
-      ]
+      ],
+      "logoAsset": "logos/alexander-mcqueen.svg"
     },
     {
       "id": "jacquemus",
@@ -812,7 +831,8 @@
           "endDate": null,
           "bio": "Self-taught designer who built Jacquemus into a global contemporary brand."
         }
-      ]
+      ],
+      "logoAsset": "logos/jacquemus.svg"
     },
     {
       "id": "alaia",
@@ -847,7 +867,8 @@
           "endDate": null,
           "bio": "Vacant following Pieter Mulier's departure for Versace."
         }
-      ]
+      ],
+      "logoAsset": "logos/alaia.svg"
     },
     {
       "id": "moschino",
@@ -898,7 +919,8 @@
           "endDate": null,
           "bio": "Sunnei founders appointed as co-creative directors of Moschino."
         }
-      ]
+      ],
+      "logoAsset": "logos/moschino.svg"
     },
     {
       "id": "armani",
@@ -925,7 +947,8 @@
           "endDate": null,
           "bio": "Appointed to lead Giorgio Armani following the founder's passing."
         }
-      ]
+      ],
+      "logoAsset": "logos/armani.svg"
     },
     {
       "id": "dolce-gabbana",
@@ -952,7 +975,8 @@
           "endDate": null,
           "bio": "Co-founder and public face of the brand's bold Italian aesthetic."
         }
-      ]
+      ],
+      "logoAsset": "logos/dolce-gabbana.svg"
     },
     {
       "id": "moncler",
@@ -979,7 +1003,8 @@
           "endDate": "2024-03-01",
           "bio": "Led a Moncler Genius chapter before returning to full-time house roles."
         }
-      ]
+      ],
+      "logoAsset": "logos/moncler.svg"
     }
   ]
 }

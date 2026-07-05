@@ -3,6 +3,7 @@ package com.zahnma.atelier.ui.directors
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -19,10 +20,12 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.zahnma.atelier.data.model.Brand
+import com.zahnma.atelier.ui.components.BrandLogo
 import com.zahnma.atelier.ui.components.DirectorRow
 import com.zahnma.atelier.viewmodel.BrandViewModel
 
@@ -93,13 +96,26 @@ private fun BrandHeader(brand: Brand) {
         modifier = Modifier
             .fillMaxWidth()
             .padding(horizontal = 4.dp, vertical = 8.dp),
-        verticalArrangement = Arrangement.spacedBy(6.dp),
+        verticalArrangement = Arrangement.spacedBy(10.dp),
     ) {
-        Text(
-            text = "${brand.country} · Founded ${brand.founded}",
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(14.dp),
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            BrandLogo(brand = brand, size = 64.dp)
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text(
+                    text = brand.name,
+                    style = MaterialTheme.typography.titleLarge,
+                )
+                Text(
+                    text = "${brand.country} · Founded ${brand.founded}",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        }
+
         Text(
             text = brand.category,
             style = MaterialTheme.typography.labelMedium,
@@ -110,13 +126,12 @@ private fun BrandHeader(brand: Brand) {
                 text = description,
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurface,
-                modifier = Modifier.padding(top = 4.dp),
             )
         }
         Text(
             text = "Creative leadership",
             style = MaterialTheme.typography.titleLarge,
-            modifier = Modifier.padding(top = 12.dp, bottom = 4.dp),
+            modifier = Modifier.padding(top = 8.dp, bottom = 4.dp),
         )
     }
 }
