@@ -1,0 +1,985 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "2026-07-05",
+  "brands": [
+    {
+      "id": "chanel",
+      "name": "Chanel",
+      "country": "France",
+      "founded": 1910,
+      "category": "Haute couture",
+      "description": "Parisian house founded by Gabrielle Chanel, defining modern women's luxury.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "gabrielle-chanel",
+          "name": "Gabrielle Chanel",
+          "role": "Founder & Creative Director",
+          "startDate": "1910-01-01",
+          "endDate": "1971-01-10",
+          "bio": "Founder of the house; established the codes of tweed, camellia, and the little black dress."
+        },
+        {
+          "personId": "karl-lagerfeld",
+          "name": "Karl Lagerfeld",
+          "role": "Creative Director",
+          "startDate": "1983-01-01",
+          "endDate": "2019-02-19",
+          "bio": "Revived and modernized Chanel for over three decades until his death."
+        },
+        {
+          "personId": "virginie-viard",
+          "name": "Virginie Viard",
+          "role": "Artistic Director",
+          "startDate": "2019-02-19",
+          "endDate": "2024-06-05",
+          "bio": "Longtime Lagerfeld collaborator who succeeded him as head of creative."
+        },
+        {
+          "personId": "matthieu-blazy",
+          "name": "Matthieu Blazy",
+          "role": "Artistic Director",
+          "startDate": "2025-12-09",
+          "endDate": null,
+          "bio": "Former Bottega Veneta creative director appointed to lead Chanel."
+        }
+      ]
+    },
+    {
+      "id": "dior",
+      "name": "Dior",
+      "country": "France",
+      "founded": 1946,
+      "category": "Haute couture",
+      "description": "Legendary Paris couture house known for the New Look and romantic femininity.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "christian-dior",
+          "name": "Christian Dior",
+          "role": "Founder & Creative Director",
+          "startDate": "1946-12-16",
+          "endDate": "1957-10-24",
+          "bio": "Founded the house and introduced the New Look silhouette."
+        },
+        {
+          "personId": "yves-saint-laurent",
+          "name": "Yves Saint Laurent",
+          "role": "Creative Director",
+          "startDate": "1957-10-24",
+          "endDate": "1960-01-30",
+          "bio": "Succeeded Dior at age 21 before founding his own house."
+        },
+        {
+          "personId": "marc-bohan",
+          "name": "Marc Bohan",
+          "role": "Creative Director",
+          "startDate": "1960-01-30",
+          "endDate": "1989-01-01",
+          "bio": "Longest-serving Dior designer, known for refined daywear and evening glamour."
+        },
+        {
+          "personId": "gianfranco-ferre",
+          "name": "Gianfranco Ferré",
+          "role": "Creative Director",
+          "startDate": "1989-01-01",
+          "endDate": "1996-10-15",
+          "bio": "Italian architect-designer who brought structured elegance to Dior."
+        },
+        {
+          "personId": "john-galliano",
+          "name": "John Galliano",
+          "role": "Creative Director",
+          "startDate": "1996-10-15",
+          "endDate": "2011-03-01",
+          "bio": "Theatrical couturier who redefined Dior's romantic drama."
+        },
+        {
+          "personId": "raf-simons",
+          "name": "Raf Simons",
+          "role": "Creative Director",
+          "startDate": "2012-04-09",
+          "endDate": "2015-10-22",
+          "bio": "Minimalist Belgian designer who streamlined Dior's silhouette."
+        },
+        {
+          "personId": "maria-grazia-chiuri",
+          "name": "Maria Grazia Chiuri",
+          "role": "Creative Director",
+          "startDate": "2016-07-07",
+          "endDate": null,
+          "bio": "First woman to lead Dior; known for feminist messaging and bohemian romance."
+        }
+      ]
+    },
+    {
+      "id": "louis-vuitton",
+      "name": "Louis Vuitton",
+      "country": "France",
+      "founded": 1854,
+      "category": "Luxury leather goods",
+      "description": "World's leading luxury brand, part of LVMH, spanning leather goods, ready-to-wear, and travel.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "marc-jacobs",
+          "name": "Marc Jacobs",
+          "role": "Creative Director",
+          "startDate": "1997-01-01",
+          "endDate": "2013-10-01",
+          "bio": "Introduced ready-to-wear and transformed LV into a fashion powerhouse."
+        },
+        {
+          "personId": "nicolas-ghesquiere",
+          "name": "Nicolas Ghesquière",
+          "role": "Creative Director, Womenswear",
+          "startDate": "2013-11-04",
+          "endDate": null,
+          "bio": "Former Balenciaga designer known for futuristic sport-luxe at Louis Vuitton."
+        },
+        {
+          "personId": "pharrell-williams",
+          "name": "Pharrell Williams",
+          "role": "Creative Director, Menswear",
+          "startDate": "2023-02-14",
+          "endDate": null,
+          "bio": "Musician and designer appointed to lead Louis Vuitton menswear."
+        }
+      ]
+    },
+    {
+      "id": "gucci",
+      "name": "Gucci",
+      "country": "Italy",
+      "founded": 1921,
+      "category": "Luxury fashion",
+      "description": "Florentine house famed for Italian craft, bold branding, and maximalist reinvention.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "tom-ford",
+          "name": "Tom Ford",
+          "role": "Creative Director",
+          "startDate": "1994-01-01",
+          "endDate": "2004-04-01",
+          "bio": "Revived Gucci with sensual, jet-set glamour."
+        },
+        {
+          "personId": "frida-giannini",
+          "name": "Frida Giannini",
+          "role": "Creative Director",
+          "startDate": "2006-01-01",
+          "endDate": "2015-01-01",
+          "bio": "Expanded Gucci's heritage motifs and accessories focus."
+        },
+        {
+          "personId": "alessandro-michele",
+          "name": "Alessandro Michele",
+          "role": "Creative Director",
+          "startDate": "2015-01-21",
+          "endDate": "2022-11-23",
+          "bio": "Defined Gucci's eclectic, gender-fluid maximalist era."
+        },
+        {
+          "personId": "sabato-de-sarno",
+          "name": "Sabato De Sarno",
+          "role": "Creative Director",
+          "startDate": "2023-01-28",
+          "endDate": "2025-02-01",
+          "bio": "Former Valentino designer who pursued a cleaner, sensual minimalism."
+        },
+        {
+          "personId": "demna",
+          "name": "Demna",
+          "role": "Creative Director",
+          "startDate": "2025-03-01",
+          "endDate": null,
+          "bio": "Balenciaga creative director appointed to lead Gucci."
+        }
+      ]
+    },
+    {
+      "id": "prada",
+      "name": "Prada",
+      "country": "Italy",
+      "founded": 1913,
+      "category": "Luxury fashion",
+      "description": "Milanese house blending intellectual design, nylon innovation, and Miuccia Prada's vision.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "miuccia-prada",
+          "name": "Miuccia Prada",
+          "role": "Co-Creative Director",
+          "startDate": "1978-01-01",
+          "endDate": null,
+          "bio": "Transformed Prada into a global fashion authority alongside Raf Simons since 2020."
+        },
+        {
+          "personId": "raf-simons",
+          "name": "Raf Simons",
+          "role": "Co-Creative Director",
+          "startDate": "2020-04-02",
+          "endDate": "2025-10-01",
+          "bio": "Shared creative leadership with Miuccia Prada until his departure."
+        }
+      ]
+    },
+    {
+      "id": "hermes",
+      "name": "Hermès",
+      "country": "France",
+      "founded": 1837,
+      "category": "Luxury leather goods",
+      "description": "Parisian maison renowned for craftsmanship, equestrian heritage, and leather excellence.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "jean-paul-gaultier",
+          "name": "Jean Paul Gaultier",
+          "role": "Creative Director, Womenswear",
+          "startDate": "2003-01-01",
+          "endDate": "2010-01-01",
+          "bio": "Brought playful couture spirit to Hermès womenswear."
+        },
+        {
+          "personId": "christophe-lemaire",
+          "name": "Christophe Lemaire",
+          "role": "Creative Director, Womenswear",
+          "startDate": "2010-01-01",
+          "endDate": "2014-01-01",
+          "bio": "Known for quiet luxury and refined minimal silhouettes."
+        },
+        {
+          "personId": "nadège-vanhee-cybulski",
+          "name": "Nadège Vanhee-Cybulski",
+          "role": "Creative Director, Womenswear",
+          "startDate": "2014-03-01",
+          "endDate": null,
+          "bio": "Former Celine designer leading Hermès women's ready-to-wear and leather."
+        },
+        {
+          "personId": "veronique-nichanian",
+          "name": "Véronique Nichanian",
+          "role": "Artistic Director, Menswear",
+          "startDate": "1988-01-01",
+          "endDate": null,
+          "bio": "Long-serving menswear director known for understated tailoring."
+        }
+      ]
+    },
+    {
+      "id": "balenciaga",
+      "name": "Balenciaga",
+      "country": "France",
+      "founded": 1919,
+      "category": "Luxury fashion",
+      "description": "House founded by Cristóbal Balenciaga, later reinvented through avant-garde street-luxe.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "cristobal-balenciaga",
+          "name": "Cristóbal Balenciaga",
+          "role": "Founder & Creative Director",
+          "startDate": "1919-01-01",
+          "endDate": "1968-01-01",
+          "bio": "Master couturier whose sculptural volumes influenced modern fashion."
+        },
+        {
+          "personId": "nicolas-ghesquiere",
+          "name": "Nicolas Ghesquière",
+          "role": "Creative Director",
+          "startDate": "1997-01-01",
+          "endDate": "2012-11-05",
+          "bio": "Futuristic designer who rebuilt Balenciaga's relevance."
+        },
+        {
+          "personId": "alexander-wang",
+          "name": "Alexander Wang",
+          "role": "Creative Director",
+          "startDate": "2012-12-03",
+          "endDate": "2015-07-31",
+          "bio": "Short tenure bridging downtown New York energy with the house."
+        },
+        {
+          "personId": "demna",
+          "name": "Demna",
+          "role": "Creative Director",
+          "startDate": "2015-10-01",
+          "endDate": "2025-02-01",
+          "bio": "Vetements founder who reshaped luxury through irony and oversize silhouettes."
+        },
+        {
+          "personId": "pierpaolo-piccioli",
+          "name": "Pierpaolo Piccioli",
+          "role": "Creative Director",
+          "startDate": "2025-03-01",
+          "endDate": null,
+          "bio": "Former Valentino co-creative director appointed to lead Balenciaga."
+        }
+      ]
+    },
+    {
+      "id": "saint-laurent",
+      "name": "Saint Laurent",
+      "country": "France",
+      "founded": 1961,
+      "category": "Luxury fashion",
+      "description": "Yves Saint Laurent's house, defining Le Smoking, Rive Gauche, and Parisian cool.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "yves-saint-laurent",
+          "name": "Yves Saint Laurent",
+          "role": "Founder & Creative Director",
+          "startDate": "1961-01-01",
+          "endDate": "2002-01-01",
+          "bio": "Revolutionized women's wardrobes with androgyny and prêt-à-porter."
+        },
+        {
+          "personId": "stefano-pilati",
+          "name": "Stefano Pilati",
+          "role": "Creative Director",
+          "startDate": "2004-01-01",
+          "endDate": "2012-02-01",
+          "bio": "Refined the house with strong shoulders and Parisian tailoring."
+        },
+        {
+          "personId": "hedi-slimane",
+          "name": "Hedi Slimane",
+          "role": "Creative Director",
+          "startDate": "2012-03-01",
+          "endDate": "2016-03-31",
+          "bio": "Rebranded to Saint Laurent Paris with rock-and-roll skinny silhouettes."
+        },
+        {
+          "personId": "anthony-vaccarello",
+          "name": "Anthony Vaccarello",
+          "role": "Creative Director",
+          "startDate": "2016-04-01",
+          "endDate": null,
+          "bio": "Known for body-conscious glamour and strong red-carpet dressing."
+        }
+      ]
+    },
+    {
+      "id": "bottega-veneta",
+      "name": "Bottega Veneta",
+      "country": "Italy",
+      "founded": 1966,
+      "category": "Luxury leather goods",
+      "description": "Venetian house famous for intrecciato leather and quiet luxury under recent creative leaders.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "tomas-maier",
+          "name": "Tomas Maier",
+          "role": "Creative Director",
+          "startDate": "2001-06-01",
+          "endDate": "2018-06-01",
+          "bio": "Championed stealth wealth and artisanal leather goods."
+        },
+        {
+          "personId": "daniel-lee",
+          "name": "Daniel Lee",
+          "role": "Creative Director",
+          "startDate": "2018-07-01",
+          "endDate": "2021-11-15",
+          "bio": "Revived the brand with puff shoes, vibrant leather, and the Cassette bag."
+        },
+        {
+          "personId": "matthieu-blazy",
+          "name": "Matthieu Blazy",
+          "role": "Creative Director",
+          "startDate": "2021-11-15",
+          "endDate": "2025-12-09",
+          "bio": "Known for effortless luxury and viral celebrity moments before moving to Chanel."
+        },
+        {
+          "personId": "louise-trotter",
+          "name": "Louise Trotter",
+          "role": "Creative Director",
+          "startDate": "2025-12-09",
+          "endDate": null,
+          "bio": "Former Carven and Joseph designer appointed to succeed Matthieu Blazy."
+        }
+      ]
+    },
+    {
+      "id": "burberry",
+      "name": "Burberry",
+      "country": "United Kingdom",
+      "founded": 1856,
+      "category": "Luxury fashion",
+      "description": "British heritage brand known for trench coats, check patterns, and rainwear.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "christopher-bailey",
+          "name": "Christopher Bailey",
+          "role": "Chief Creative Officer",
+          "startDate": "2001-05-01",
+          "endDate": "2018-03-01",
+          "bio": "Modernized Burberry with digital innovation and streamlined luxury."
+        },
+        {
+          "personId": "riccardo-tisci",
+          "name": "Riccardo Tisci",
+          "role": "Chief Creative Officer",
+          "startDate": "2018-03-01",
+          "endDate": "2022-09-30",
+          "bio": "Former Givenchy designer who introduced the TB monogram era."
+        },
+        {
+          "personId": "daniel-lee",
+          "name": "Daniel Lee",
+          "role": "Chief Creative Officer",
+          "startDate": "2022-09-30",
+          "endDate": null,
+          "bio": "Returned to a British craft-focused vision with playful color and knitwear."
+        }
+      ]
+    },
+    {
+      "id": "versace",
+      "name": "Versace",
+      "country": "Italy",
+      "founded": 1978,
+      "category": "Luxury fashion",
+      "description": "Milanese house defined by bold prints, Medusa iconography, and glamour.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "gianni-versace",
+          "name": "Gianni Versace",
+          "role": "Founder & Creative Director",
+          "startDate": "1978-01-01",
+          "endDate": "1997-07-15",
+          "bio": "Created the house's signature sexy, baroque aesthetic."
+        },
+        {
+          "personId": "donatella-versace",
+          "name": "Donatella Versace",
+          "role": "Creative Director",
+          "startDate": "1997-07-15",
+          "endDate": "2025-02-01",
+          "bio": "Sister of Gianni who steered Versace for nearly three decades."
+        },
+        {
+          "personId": "pieter-mulier",
+          "name": "Pieter Mulier",
+          "role": "Chief Creative Officer",
+          "startDate": "2025-07-01",
+          "endDate": null,
+          "bio": "Former Alaïa creative director appointed to lead Versace."
+        }
+      ]
+    },
+    {
+      "id": "valentino",
+      "name": "Valentino",
+      "country": "Italy",
+      "founded": 1960,
+      "category": "Haute couture",
+      "description": "Roman couture house celebrated for red gowns and romantic elegance.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "valentino-garavani",
+          "name": "Valentino Garavani",
+          "role": "Founder & Creative Director",
+          "startDate": "1960-01-01",
+          "endDate": "2008-01-01",
+          "bio": "Defined Valentino red and red-carpet glamour."
+        },
+        {
+          "personId": "alessandra-facchinetti",
+          "name": "Alessandra Facchinetti",
+          "role": "Creative Director",
+          "startDate": "2007-01-01",
+          "endDate": "2008-01-01",
+          "bio": "Brief tenure following Valentino's retirement."
+        },
+        {
+          "personId": "maria-grazia-chiuri",
+          "name": "Maria Grazia Chiuri",
+          "role": "Co-Creative Director",
+          "startDate": "2008-01-01",
+          "endDate": "2016-07-07",
+          "bio": "Co-led with Pierpaolo Piccioli before departing for Dior."
+        },
+        {
+          "personId": "pierpaolo-piccioli",
+          "name": "Pierpaolo Piccioli",
+          "role": "Co-Creative Director / Creative Director",
+          "startDate": "2008-01-01",
+          "endDate": "2024-03-01",
+          "bio": "Solo creative director after Chiuri's exit; known for poetic couture."
+        },
+        {
+          "personId": "alessandro-michele",
+          "name": "Alessandro Michele",
+          "role": "Creative Director",
+          "startDate": "2024-03-01",
+          "endDate": null,
+          "bio": "Former Gucci creative director appointed to Valentino."
+        }
+      ]
+    },
+    {
+      "id": "givenchy",
+      "name": "Givenchy",
+      "country": "France",
+      "founded": 1952,
+      "category": "Haute couture",
+      "description": "Paris house founded by Hubert de Givenchy, long associated with Audrey Hepburn's elegance.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "hubert-de-givenchy",
+          "name": "Hubert de Givenchy",
+          "role": "Founder & Creative Director",
+          "startDate": "1952-02-02",
+          "endDate": "1995-01-01",
+          "bio": "Created refined Parisian couture and the Audrey Hepburn relationship."
+        },
+        {
+          "personId": "john-galliano",
+          "name": "John Galliano",
+          "role": "Creative Director",
+          "startDate": "1995-10-01",
+          "endDate": "1996-10-15",
+          "bio": "Short tenure before moving to Dior."
+        },
+        {
+          "personId": "alexander-mcqueen",
+          "name": "Alexander McQueen",
+          "role": "Creative Director",
+          "startDate": "1996-10-15",
+          "endDate": "2001-03-01",
+          "bio": "Provocative British talent before founding his eponymous label's peak era."
+        },
+        {
+          "personId": "riccardo-tisci",
+          "name": "Riccardo Tisci",
+          "role": "Creative Director",
+          "startDate": "2005-02-01",
+          "endDate": "2017-03-31",
+          "bio": "Introduced dark romanticism and streetwear collaborations."
+        },
+        {
+          "personId": "clare-waight-keller",
+          "name": "Clare Waight Keller",
+          "role": "Artistic Director",
+          "startDate": "2017-05-02",
+          "endDate": "2020-04-10",
+          "bio": "First woman to lead Givenchy; designed Meghan Markle's wedding dress."
+        },
+        {
+          "personId": "matthew-williams",
+          "name": "Matthew M. Williams",
+          "role": "Creative Director",
+          "startDate": "2021-01-01",
+          "endDate": "2023-12-01",
+          "bio": "1017 ALYX 9SM founder who brought hardware-heavy utility to Givenchy."
+        },
+        {
+          "personId": "sarah-burton",
+          "name": "Sarah Burton",
+          "role": "Creative Director",
+          "startDate": "2024-01-01",
+          "endDate": null,
+          "bio": "Former Alexander McQueen right hand appointed to lead Givenchy."
+        }
+      ]
+    },
+    {
+      "id": "fendi",
+      "name": "Fendi",
+      "country": "Italy",
+      "founded": 1925,
+      "category": "Luxury fashion",
+      "description": "Roman fur and leather house, part of LVMH, known for Baguette bags and Roman craft.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "karl-lagerfeld",
+          "name": "Karl Lagerfeld",
+          "role": "Creative Director, Fur & Ready-to-Wear",
+          "startDate": "1965-01-01",
+          "endDate": "2019-02-19",
+          "bio": "Five-decade collaboration that defined Fendi's modern identity."
+        },
+        {
+          "personId": "silvia-venturini-fendi",
+          "name": "Silvia Venturini Fendi",
+          "role": "Artistic Director, Accessories & Menswear",
+          "startDate": "1994-01-01",
+          "endDate": null,
+          "bio": "Third-generation Fendi family member overseeing accessories and menswear."
+        },
+        {
+          "personId": "kim-jones",
+          "name": "Kim Jones",
+          "role": "Artistic Director",
+          "startDate": "2020-09-01",
+          "endDate": null,
+          "bio": "Shared creative leadership for womenswear, menswear, and couture fur."
+        }
+      ]
+    },
+    {
+      "id": "loewe",
+      "name": "Loewe",
+      "country": "Spain",
+      "founded": 1846,
+      "category": "Luxury leather goods",
+      "description": "Spanish leather house under LVMH, celebrated for craft, art collaborations, and puzzle bags.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "stuart-vevers",
+          "name": "Stuart Vevers",
+          "role": "Creative Director",
+          "startDate": "2008-01-01",
+          "endDate": "2013-11-01",
+          "bio": "Introduced a younger luxury leather goods direction."
+        },
+        {
+          "personId": "jonathan-anderson",
+          "name": "Jonathan Anderson",
+          "role": "Creative Director",
+          "startDate": "2013-11-01",
+          "endDate": "2025-03-01",
+          "bio": "Transformed Loewe into a cultural fashion leader with craft and surrealism."
+        },
+        {
+          "personId": "tbd-loewe",
+          "name": "TBD",
+          "role": "Creative Director",
+          "startDate": "2025-03-01",
+          "endDate": null,
+          "bio": "Successor to Jonathan Anderson pending announcement."
+        }
+      ]
+    },
+    {
+      "id": "celine",
+      "name": "Celine",
+      "country": "France",
+      "founded": 1945,
+      "category": "Luxury fashion",
+      "description": "Parisian house known for understated chic, triomphe logo, and Phoebe Philo-era minimalism.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "michael-kors",
+          "name": "Michael Kors",
+          "role": "Creative Director",
+          "startDate": "1997-01-01",
+          "endDate": "2003-01-01",
+          "bio": "Early tenure before building his American brand."
+        },
+        {
+          "personId": "ivana-omazic",
+          "name": "Ivana Omazic",
+          "role": "Creative Director",
+          "startDate": "2003-01-01",
+          "endDate": "2008-10-01",
+          "bio": "Former Prada designer who refined Celine's clean lines."
+        },
+        {
+          "personId": "phoebe-philo",
+          "name": "Phoebe Philo",
+          "role": "Creative Director",
+          "startDate": "2008-10-01",
+          "endDate": "2017-12-31",
+          "bio": "Defined modern minimal Celine with the Luggage and Phantom bags."
+        },
+        {
+          "personId": "hedi-slimane",
+          "name": "Hedi Slimane",
+          "role": "Artistic, Creative & Image Director",
+          "startDate": "2018-01-01",
+          "endDate": "2024-10-01",
+          "bio": "Reintroduced rock aesthetic and youth-driven branding to Celine."
+        },
+        {
+          "personId": "michael-rider",
+          "name": "Michael Rider",
+          "role": "Creative Director",
+          "startDate": "2024-10-01",
+          "endDate": null,
+          "bio": "Former Celine design director returning to lead the house."
+        }
+      ]
+    },
+    {
+      "id": "miu-miu",
+      "name": "Miu Miu",
+      "country": "Italy",
+      "founded": 1993,
+      "category": "Contemporary fashion",
+      "description": "Prada Group's playful sister label exploring subversive femininity and youth culture.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "miuccia-prada",
+          "name": "Miuccia Prada",
+          "role": "Founder & Creative Director",
+          "startDate": "1993-01-01",
+          "endDate": null,
+          "bio": "Founded Miu Miu as an experimental counterpart to Prada."
+        }
+      ]
+    },
+    {
+      "id": "tom-ford",
+      "name": "Tom Ford",
+      "country": "United States",
+      "founded": 2005,
+      "category": "Luxury fashion",
+      "description": "American brand founded by the designer after Gucci and YSL, known for glamour and sex appeal.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "tom-ford",
+          "name": "Tom Ford",
+          "role": "Founder & Creative Director",
+          "startDate": "2005-04-01",
+          "endDate": "2023-04-01",
+          "bio": "Led his namesake label until its acquisition by Estée Lauder Companies."
+        },
+        {
+          "personId": "peter-hawkings",
+          "name": "Peter Hawkings",
+          "role": "Creative Director",
+          "startDate": "2023-09-01",
+          "endDate": null,
+          "bio": "Longtime Tom Ford collaborator appointed to succeed the founder."
+        }
+      ]
+    },
+    {
+      "id": "alexander-mcqueen",
+      "name": "Alexander McQueen",
+      "country": "United Kingdom",
+      "founded": 1992,
+      "category": "Luxury fashion",
+      "description": "British house founded by Lee Alexander McQueen, known for dramatic tailoring and showmanship.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "alexander-mcqueen",
+          "name": "Lee Alexander McQueen",
+          "role": "Founder & Creative Director",
+          "startDate": "1992-01-01",
+          "endDate": "2010-02-11",
+          "bio": "Visionary designer whose shows redefined fashion spectacle."
+        },
+        {
+          "personId": "sarah-burton",
+          "name": "Sarah Burton",
+          "role": "Creative Director",
+          "startDate": "2010-05-01",
+          "endDate": "2023-10-01",
+          "bio": "McQueen protégée who designed Kate Middleton's wedding gown."
+        },
+        {
+          "personId": "sean-mcgirr",
+          "name": "Sean McGirr",
+          "role": "Creative Director",
+          "startDate": "2023-12-01",
+          "endDate": null,
+          "bio": "Former JW Anderson designer appointed to lead Alexander McQueen."
+        }
+      ]
+    },
+    {
+      "id": "jacquemus",
+      "name": "Jacquemus",
+      "country": "France",
+      "founded": 2009,
+      "category": "Contemporary fashion",
+      "description": "Independent French label known for Provence-inspired minimalism and viral accessories.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "simon-porte-jacquemus",
+          "name": "Simon Porte Jacquemus",
+          "role": "Founder & Creative Director",
+          "startDate": "2009-01-01",
+          "endDate": null,
+          "bio": "Self-taught designer who built Jacquemus into a global contemporary brand."
+        }
+      ]
+    },
+    {
+      "id": "alaia",
+      "name": "Alaïa",
+      "country": "France",
+      "founded": 1965,
+      "category": "Haute couture",
+      "description": "Paris house founded by Azzedine Alaïa, celebrated for body-conscious sculptural knits.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "azzedine-alaia",
+          "name": "Azzedine Alaïa",
+          "role": "Founder & Creative Director",
+          "startDate": "1965-01-01",
+          "endDate": "2017-11-18",
+          "bio": "Master of fit who worked directly on the body like sculpture."
+        },
+        {
+          "personId": "pieter-mulier",
+          "name": "Pieter Mulier",
+          "role": "Creative Director",
+          "startDate": "2021-01-01",
+          "endDate": "2026-01-30",
+          "bio": "Former Raf Simons collaborator who revived Alaïa's couture spirit."
+        },
+        {
+          "personId": "tbd-alaia",
+          "name": "TBD",
+          "role": "Creative Director",
+          "startDate": "2026-01-30",
+          "endDate": null,
+          "bio": "Vacant following Pieter Mulier's departure for Versace."
+        }
+      ]
+    },
+    {
+      "id": "moschino",
+      "name": "Moschino",
+      "country": "Italy",
+      "founded": 1983,
+      "category": "Contemporary fashion",
+      "description": "Milanese label founded by Franco Moschino, defined by irony, pop culture, and humor.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "franco-moschino",
+          "name": "Franco Moschino",
+          "role": "Founder & Creative Director",
+          "startDate": "1983-01-01",
+          "endDate": "1994-09-18",
+          "bio": "Pioneer of witty, subversive Italian fashion."
+        },
+        {
+          "personId": "rossella-jardini",
+          "name": "Rossella Jardini",
+          "role": "Creative Director",
+          "startDate": "1994-09-18",
+          "endDate": "2013-10-01",
+          "bio": "Longtime collaborator who preserved Moschino's playful DNA."
+        },
+        {
+          "personId": "jeremy-scott",
+          "name": "Jeremy Scott",
+          "role": "Creative Director",
+          "startDate": "2013-10-01",
+          "endDate": "2023-03-01",
+          "bio": "American designer who amplified cartoonish pop maximalism."
+        },
+        {
+          "personId": "adrian-appiolaza",
+          "name": "Adrian Appiolaza",
+          "role": "Creative Director",
+          "startDate": "2023-10-01",
+          "endDate": "2026-06-19",
+          "bio": "Former Prada designer who refined Moschino's archival references."
+        },
+        {
+          "personId": "loris-messina-simone-rizzo",
+          "name": "Loris Messina & Simone Rizzo",
+          "role": "Creative Directors",
+          "startDate": "2026-06-20",
+          "endDate": null,
+          "bio": "Sunnei founders appointed as co-creative directors of Moschino."
+        }
+      ]
+    },
+    {
+      "id": "armani",
+      "name": "Armani",
+      "country": "Italy",
+      "founded": 1975,
+      "category": "Luxury fashion",
+      "description": "Giorgio Armani's Milanese empire spanning couture, ready-to-wear, and lifestyle lines.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "giorgio-armani",
+          "name": "Giorgio Armani",
+          "role": "Founder & Creative Director",
+          "startDate": "1975-07-24",
+          "endDate": "2025-09-04",
+          "bio": "Defined power dressing and Italian soft tailoring for half a century."
+        },
+        {
+          "personId": "leo-maria-prezioso",
+          "name": "Leo Maria Prezioso",
+          "role": "Creative Director",
+          "startDate": "2025-09-04",
+          "endDate": null,
+          "bio": "Appointed to lead Giorgio Armani following the founder's passing."
+        }
+      ]
+    },
+    {
+      "id": "dolce-gabbana",
+      "name": "Dolce & Gabbana",
+      "country": "Italy",
+      "founded": 1985,
+      "category": "Luxury fashion",
+      "description": "Sicilian duo's house celebrating Mediterranean femininity, corsetry, and baroque excess.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "domenico-dolce",
+          "name": "Domenico Dolce",
+          "role": "Co-Founder & Creative Director",
+          "startDate": "1985-01-01",
+          "endDate": null,
+          "bio": "Co-founder who continues to lead creative direction alongside Stefano Gabbana."
+        },
+        {
+          "personId": "stefano-gabbana",
+          "name": "Stefano Gabbana",
+          "role": "Co-Founder & Creative Director",
+          "startDate": "1985-01-01",
+          "endDate": null,
+          "bio": "Co-founder and public face of the brand's bold Italian aesthetic."
+        }
+      ]
+    },
+    {
+      "id": "moncler",
+      "name": "Moncler",
+      "country": "Italy",
+      "founded": 1952,
+      "category": "Luxury outerwear",
+      "description": "Alpine outerwear brand evolved into a luxury fashion group with Genius collaborations.",
+      "logoUrl": null,
+      "directors": [
+        {
+          "personId": "remo-ruffini",
+          "name": "Remo Ruffini",
+          "role": "Chairman & Creative Strategist",
+          "startDate": "2003-01-01",
+          "endDate": null,
+          "bio": "Acquired and transformed Moncler; oversees creative strategy and Moncler Genius."
+        },
+        {
+          "personId": "pierpaolo-piccioli",
+          "name": "Pierpaolo Piccioli",
+          "role": "Moncler Genius Creative Director",
+          "startDate": "2023-01-01",
+          "endDate": "2024-03-01",
+          "bio": "Led a Moncler Genius chapter before returning to full-time house roles."
+        }
+      ]
+    }
+  ]
+}
